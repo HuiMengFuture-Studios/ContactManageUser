@@ -1,0 +1,28 @@
+{
+  "name": "contact-manage-user",
+  "version": "1.0.0",
+  "description": "Web Client For Project Contact Manage",
+  "private": true,
+  "keywords": [
+    "Contact Manage",
+    "个人事务管理"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "HuiMengFuture Network Technology Studio",
+    "email": "service@huimengfuture.xyz",
+    "url": "https://www.huimengfuture.xyz"
+  },
+  "scripts": {
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.10.0"
+  }
+}
